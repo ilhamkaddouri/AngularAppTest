@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
+import {AuthService} from './../../core/services/auth.service'
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route:Router, private authService:AuthService) { }
 
   ngOnInit(): void {
   }
+  login(){
+    this.authService.logUserIn();
+    this.route.navigateByUrl('/account/account1');
+
+  }
+  
 
 }
