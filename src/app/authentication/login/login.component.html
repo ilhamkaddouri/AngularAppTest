@@ -1,2 +1,14 @@
-<p>login works!</p>
-<button (click) = "login()">Login</button>
+<div class='div-form'>
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Email</mat-label>
+    <input matInput placeholder="...@gmail.com" >
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Password</mat-label>
+    <input matInput placeholder="Password">
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click) = "login()">Primary</button>
+</form>
+</div>
