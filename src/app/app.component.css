@@ -8,7 +8,6 @@ button{
     margin: auto;
     margin-top: 100px;
     border-radius: 28px;
-    background-color: lightgrey;
     opacity: 0.8;
     box-sizing: border-box;
     padding: 40px;
@@ -26,10 +25,6 @@ button{
     
   }
 
-  .navbar {
-    justify-content: space-between;
-  }
-
   span {
     padding-right: 1rem;
   }
@@ -41,8 +36,19 @@ button{
   }
 
   a{
-    
-    size: 20px;
+    padding-right: 5px;
+    size: 18px;
     margin-top:20px;
     text-decoration: none;
+  }
+
+  .toolbar{
+   
+    justify-content: space-between;
+  }
+  .card{
+    width: 400px;
+    border-radius: 12px;
+    border: grey;
+    opacity: 2px;
   }
