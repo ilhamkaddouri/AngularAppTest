@@ -6,8 +6,10 @@ import {MatBadgeModule} from '@angular/material/badge';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatToolbarModule} from '@angular/material/toolbar';
 const appmaterials=[MatButtonModule,MatButtonToggleModule,
-  MatIconModule,MatBadgeModule,MatProgressSpinnerModule,MatInputModule,MatFormFieldModule]
+  MatIconModule,MatBadgeModule,MatProgressSpinnerModule,
+  MatInputModule,MatFormFieldModule,MatToolbarModule]
   
 
 

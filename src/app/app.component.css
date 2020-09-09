@@ -4,9 +4,15 @@ button{
 
 .div-form {
     display: block;
+    max-width: 480px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 28px;
+    background-color: lightgrey;
+    opacity: 0.8;
+    box-sizing: border-box;
+    padding: 40px;
     text-align: center;
-    margin: 80xp;
-    align-items: center;
   }
 
   .example-form {
@@ -14,9 +20,29 @@ button{
     max-width: 500px;
     width: 100%;
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     text-align: left;
     
     
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+
+  span {
+    padding-right: 1rem;
+  }
+
+  button{
+    border-radius: 28px;
+    display: inline;
+    text-align: center;
+  }
+
+  a{
+    
+    size: 20px;
+    margin-top:20px;
+    text-decoration: none;
   }
