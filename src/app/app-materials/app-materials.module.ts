@@ -8,9 +8,14 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatMenuModule} from '@angular/material/menu';
 const appmaterials=[MatButtonModule,MatButtonToggleModule,
   MatIconModule,MatBadgeModule,MatProgressSpinnerModule,
-  MatInputModule,MatFormFieldModule,MatToolbarModule,MatCardModule]
+  MatInputModule,MatFormFieldModule,MatToolbarModule,MatCardModule,
+  MatSidenavModule,MatDividerModule,
+  MatMenuModule]
   
 
 

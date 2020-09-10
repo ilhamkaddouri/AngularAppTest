@@ -4,14 +4,15 @@ import {AppMaterialsModule} from './app-materials/app-materials.module'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AuthenticationModule } from './authentication/authentication.module';
+import { AuthenticationModule } from './modules/authentication/authentication.module';
 import {RouterModule} from '@angular/router';
 import {CoreModule} from './core/core.module'
 import { HttpClientModule } from '@angular/common/http';
-
+import {DefaultModule} from '../app/layouts/default/default.module';
+import { PostsComponent } from './app/core/modules/posts/posts.component'
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserAnimationsModule,
     AppMaterialsModule,
     CoreModule,
-    HttpClientModule
+    HttpClientModule,
+    DefaultModule
   ],
   providers: [],
   bootstrap: [AppComponent]
