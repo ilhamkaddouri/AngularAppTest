@@ -11,11 +11,12 @@ import {MatCardModule} from '@angular/material/card';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatListModule} from '@angular/material/list';
 const appmaterials=[MatButtonModule,MatButtonToggleModule,
   MatIconModule,MatBadgeModule,MatProgressSpinnerModule,
   MatInputModule,MatFormFieldModule,MatToolbarModule,MatCardModule,
   MatSidenavModule,MatDividerModule,
-  MatMenuModule]
+  MatMenuModule,MatListModule]
   
 
 
